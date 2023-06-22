@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPanteraNegra">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="455dp"
+        android:layout_height="275dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/blackpanther"
+        tools:ignore="ContentDescription,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316"
+        app:srcCompat="@android:drawable/screen_background_dark_transparent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="12dp"
+        android:layout_height="757dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/screen_background_dark"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pantera_negra"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.475"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/biografia"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintStart_toEndOf="@+id/imageView15" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="360dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="21dp"
+        android:text="O Pantera Negra foi criado pela dupla dinâmica Stan Lee e Jack Kirby aparecendo pela primeira vez na revista Fantastic Four #52 de julho de 1966 durante a chamada Era de Prata dos quadrinhos. A identidade do herói pertence ao príncipe de Wakanda: T'Challa."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="22dp"
+        android:text="Relação com a Sustentabilidade"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="360dp"
+        android:layout_height="197dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="7dp"
+        android:text="o príncipe T’Challa acredita na preservação do meio ambiente e ensina o seu povo a plantar e colher com responsabilidade e sem desperdício dos recursos naturais. Apesar de todo cuidado e respeito que se tem pela natureza no reino de Wakanda, eles acreditam que a tecnologia é uma aliada na preservação da natureza. A plantação de erva coração, (a planta mais importante do reino) dá para se ter uma ideia do quanto se é importante preservar o que quer que seja."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        tools:ignore="HardcodedText,TextSizeCheck,TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btnvoltarcinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="voltarheroimarvel2"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="1dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

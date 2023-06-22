@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aplicativo_Web</string>
+    <string name="todo">TODO</string>
+    <string name="escolha_um_tema">Escolha um tema:</string>
+    <string name="biografia">Biografia</string>
+    <string name="pantera_negra">Pantera Negra</string>
+</resources>
