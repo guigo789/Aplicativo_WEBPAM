@@ -12,7 +12,7 @@ Estrutura do APP:
 
 2 Activity: Nesse momento o úsuario irá se deparar com o objetivo do APP, " Os SUPER-HEROIS são nossos protetores e amigos da vizinhaça, mas como os mesmos afetam o meio ambiente? A seguir veremos o porque a sustentabilidade e os herois estão conectados.". Logo abaixo no será incluido o mesmo botão da Activity anterior para o usuario prosseguir.
 
-3 Activity - Será apresentado uma pergunta "Qual time de herois irá escolher?", e um seletor de tema no qual o usuario deverá escolher as opções de MARVEL ou DC.
+3 Activity - Será apresentado uma pergunta "Qual time de herois irá escolher?", e um seletor de tema no qual o usuario deverá escolher as opções de MARVEL ou DC, o plano de fundo ficará neutro.
 
 4 Activity - Se a opção escolhida for "DC", aparecerá o menu de heróis da dc onde possuirá os nomes e uma imagem represnetativa dos heróis batman e aquaman, e um botão pra voltar caso o usuario quiser selecionar outro tema (3 activity).
 
