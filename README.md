@@ -29,6 +29,6 @@ Estrutura do APP:
 Cada uma das interações do app são feitas com image buttons, que são usados para mudar de uma tela pra outra ou para voltar para a tela passada.
 
 # DIAGRAMA DE CLASSE
-![image](https://github.com/guigo789/Aplicativo_WEBPAM/assets/127458533/8675e9f5-a1db-41cc-bd0f-5aebf0767227)
+![image](https://github.com/guigo789/Aplicativo_WEBPAM/assets/127458533/ef364c08-5713-481c-a888-122c3b15e4ab)
 
 
